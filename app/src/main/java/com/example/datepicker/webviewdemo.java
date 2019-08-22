@@ -32,7 +32,7 @@ public class webviewdemo extends AppCompatActivity {
                 webview.getSettings().setLoadsImagesAutomatically(true);
                 webview.getSettings().setJavaScriptEnabled(true);
                 webview.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-                webview.loadUrl(url);
+                webview.loadUrl("http://"+url);
             }
         });
     }
